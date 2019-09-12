@@ -4,17 +4,9 @@ package MyPack;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
-import org.json.JSONArray;
-
-import org.json.JSONException;
 import org.json.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
 
 import java.io.IOException;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.util.Scanner;
 
 
 public class PostCodeApi{
@@ -40,6 +32,9 @@ public class PostCodeApi{
         System.out.println( "Name of the Region:"+" "+Object.get("region"));
 
     }
+
+
+
 }
 
 

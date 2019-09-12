@@ -2,7 +2,6 @@ package MyPack;
 
 
 import java.io.IOException;
-import java.util.Scanner;
 
 public class PostCode {
 
